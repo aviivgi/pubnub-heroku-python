@@ -26,7 +26,7 @@ def populateBidData():
 def my_publish_callback(envelope, status):
   # Check whether request successfully completed or not
   if not status.is_error():
-    # pass  # Message successfully published to specified channel.
+    # pass  # Message successfully published to specified channel
     print("PUBLISHED...")
 
   else:
