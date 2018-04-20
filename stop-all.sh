@@ -1,1 +1,1 @@
-heroku ps:scale pubnubpublisher=0
+heroku ps:scale pubnubpublisher=0 --app blooming-citadel-54397
