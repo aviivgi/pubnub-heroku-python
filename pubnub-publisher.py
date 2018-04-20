@@ -31,7 +31,7 @@ def my_publish_callback(envelope, status):
 
   else:
     pass  # Handle message publish error. Check 'category' property to find out possible issue
-    # because of which request did fail.
+    # because of which request did fail. 
     # Request can be resent using: [status retry];
 
 if __name__ == "__main__":
